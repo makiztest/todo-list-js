@@ -16,6 +16,6 @@ for (var i = 0; i < thrash.length; i++) {
 
 input.addEventListener("keypress", function(e) {
   if(e.which === 13) {
-    console.log("enter")
+    console.log(this.value)
   }
 })
