@@ -9,6 +9,6 @@ for (var i = 0; i < li.length; i++) {
 
 for (var i = 0; i < thrash.length; i++) {
   thrash[i].addEventListener("click", function() {
-    console.log("xxxx")
+    this.parentNode.remove().fadeOut(200);
   });
 }
