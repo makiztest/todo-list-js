@@ -8,3 +8,8 @@
     color: gray;
     text-decoration: line-through;
 }
+
+.fade {
+    opacity: 1;
+    transition: opacity 1000ms ;
+}
